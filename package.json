@@ -1,0 +1,17 @@
+{
+  "name": "own-web-server",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0"
+  },
+  "author": "Audrey Finet"
+}
