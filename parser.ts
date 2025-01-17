@@ -9,7 +9,7 @@ export const parseRequest = (data: Buffer | string): Request | null => {
   const response = data?.toString()?.split("\r\n")?.[0];
 
   // retrieve the verb, path and http version
-  const [verb, path, httpVersion] = response.split(" ");
+  const [verb, path, httpVersion] = response?.split(" ");
 
   // handle special case for favicon
   if (path === "/favicon.ico") {

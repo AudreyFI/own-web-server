@@ -29,6 +29,13 @@ npm start
 
 Then, open your web browser and go to `http://localhost:3000` to see the web server in action.
 
+### Tests
+
+There are some basic tests for the router file, you can lauch it with 
+```sh
+npm run test
+```
+
 ## Acknowledgments
 
 - [Coding Challenges](https://codingchallenges.fyi/) for the inspiration and challenge.
